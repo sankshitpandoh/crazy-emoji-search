@@ -3,7 +3,6 @@ import '../stylesheets/singleItem.css';
 
 class SingleItem extends React.Component{
     render(){
-        console.log(this.props.data)
         return(
             <div className="single-emoji-item">
                 <h2>
