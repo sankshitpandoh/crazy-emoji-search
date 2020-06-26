@@ -12,24 +12,22 @@ class App extends React.Component{
   }
 
   searchEmoji = (keyword) => {
-    keyword.length !== 0 ?
+    keyword.length >= 2 ?
     (() => {
       let items = []
-      EmojiData.map((x, index) => {
-        x.aliases.map((y) => {
-          y === keyword &&
-            items.push(x);
-        });
-        x.tags.map((y) => {
-          y === keyword &&
-            items.push(x)
-        }) 
-      });
+      EmojiData.filter(x =>{
+        x.title.includes(keyword) ?
+        items.push(x)
+        :
+        x.keywords.includes(keyword) &&
+        items.push(x)
+      })
       this.setState({
         resultItems: items
       })
     })()
     :
+    keyword.length === 0 &&
     (() => {
       let extra = [...EmojiData];
       extra.splice(15,extra.length);

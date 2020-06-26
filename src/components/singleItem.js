@@ -6,9 +6,9 @@ class SingleItem extends React.Component{
         return(
             <div className="single-emoji-item">
                 <h2>
-                    <span role="img" aria-label={this.props.data.description}>{this.props.data.emoji}</span>
+                    <span role="img" aria-label={this.props.data.title}>{this.props.data.symbol}</span>
                 </h2>
-                <p>{this.props.data.description}</p>
+                <p>{this.props.data.title}</p>
             </div>
         )
     }
