@@ -1,12 +1,15 @@
 import React from 'react';
-import Data from '../data/emojiDataBase.json';
+import SingleItem from './singleItem';
 
 class DisplayArea extends React.Component{
     render(){
-    console.log(Data.length)
-    console.log(Data)
+        const items = this.props.resultItems.map((x,index) => {
+            return <SingleItem key={index} data = {x} />
+        })
         return(
-            <h1>hey</h1>
+            <>
+                {items}
+            </>
         )
     }
 }

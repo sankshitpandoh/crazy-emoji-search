@@ -1,10 +1,16 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import '../stylesheets/singleItem.css';
 
 class SingleItem extends React.Component{
     render(){
+        console.log(this.props.data)
         return(
-
+            <div className="single-emoji-item">
+                <h2>
+                    <span role="img" aria-label={this.props.data.description}>{this.props.data.emoji}</span>
+                </h2>
+                <p>{this.props.data.description}</p>
+            </div>
         )
     }
 }
