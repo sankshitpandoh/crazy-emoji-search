@@ -21,6 +21,7 @@ class App extends React.Component{
         :
         x.keywords.includes(keyword) &&
         items.push(x)
+        return null;
       })
       this.setState({
         resultItems: items
