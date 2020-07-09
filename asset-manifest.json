@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crazy-emoji-search/static/css/main.a6d270dc.chunk.css",
+    "main.js": "/crazy-emoji-search/static/js/main.4d619084.chunk.js",
+    "main.js.map": "/crazy-emoji-search/static/js/main.4d619084.chunk.js.map",
+    "runtime-main.js": "/crazy-emoji-search/static/js/runtime-main.3542bdbf.js",
+    "runtime-main.js.map": "/crazy-emoji-search/static/js/runtime-main.3542bdbf.js.map",
+    "static/js/2.79df7d71.chunk.js": "/crazy-emoji-search/static/js/2.79df7d71.chunk.js",
+    "static/js/2.79df7d71.chunk.js.map": "/crazy-emoji-search/static/js/2.79df7d71.chunk.js.map",
+    "index.html": "/crazy-emoji-search/index.html",
+    "precache-manifest.9fad5d04fe0dbff7c0d75f3fb07429ed.js": "/crazy-emoji-search/precache-manifest.9fad5d04fe0dbff7c0d75f3fb07429ed.js",
+    "service-worker.js": "/crazy-emoji-search/service-worker.js",
+    "static/css/main.a6d270dc.chunk.css.map": "/crazy-emoji-search/static/css/main.a6d270dc.chunk.css.map",
+    "static/js/2.79df7d71.chunk.js.LICENSE.txt": "/crazy-emoji-search/static/js/2.79df7d71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3542bdbf.js",
+    "static/js/2.79df7d71.chunk.js",
+    "static/css/main.a6d270dc.chunk.css",
+    "static/js/main.4d619084.chunk.js"
+  ]
+}
